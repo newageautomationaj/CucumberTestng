@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55028" started-at="2019-08-12T12:41:37Z" finished-at="2019-08-12T12:42:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55028" started-at="2019-08-12T12:41:37Z" finished-at="2019-08-12T12:42:32Z">
+      <class name="testRunners.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testRunners.TestRunner@6e1ec318]" name="setUpClass" is-config="true" duration-ms="99" started-at="2019-08-12T12:41:37Z" finished-at="2019-08-12T12:41:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunners.TestRunner@6e1ec318]" name="feature" duration-ms="18512" started-at="2019-08-12T12:41:37Z" data-provider="features" finished-at="2019-08-12T12:41:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add New Customer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Customers"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<[Dashboard / nopCommerce administration]> but was:<[admin-demo.nopcommerce.com]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: expected:<[Dashboard / nopCommerce administration]> but was:<[admin-demo.nopcommerce.com]>
+at org.junit.Assert.assertEquals(Assert.java:115)
+at org.junit.Assert.assertEquals(Assert.java:144)
+at stepDefinitions.LoginPageSteps.user_can_view_Dashboard(LoginPageSteps.java:107)
+at ✽.User can view Dashboard(file:featureFiles/Customers.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunners.TestRunner@6e1ec318]" name="feature" duration-ms="18148" started-at="2019-08-12T12:41:56Z" data-provider="features" finished-at="2019-08-12T12:42:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search Customer by EmailID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Customers"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<[Dashboard / nopCommerce administration]> but was:<[admin-demo.nopcommerce.com]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: expected:<[Dashboard / nopCommerce administration]> but was:<[admin-demo.nopcommerce.com]>
+at org.junit.Assert.assertEquals(Assert.java:115)
+at org.junit.Assert.assertEquals(Assert.java:144)
+at stepDefinitions.LoginPageSteps.user_can_view_Dashboard(LoginPageSteps.java:107)
+at ✽.User can view Dashboard(file:featureFiles/Customers.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunners.TestRunner@6e1ec318]" name="feature" duration-ms="18043" started-at="2019-08-12T12:42:14Z" data-provider="features" finished-at="2019-08-12T12:42:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search Customer by Name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Customers"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<[Dashboard / nopCommerce administration]> but was:<[admin-demo.nopcommerce.com]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: expected:<[Dashboard / nopCommerce administration]> but was:<[admin-demo.nopcommerce.com]>
+at org.junit.Assert.assertEquals(Assert.java:115)
+at org.junit.Assert.assertEquals(Assert.java:144)
+at stepDefinitions.LoginPageSteps.user_can_view_Dashboard(LoginPageSteps.java:107)
+at ✽.User can view Dashboard(file:featureFiles/Customers.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunners.TestRunner@6e1ec318]" name="tearDownClass" is-config="true" duration-ms="140" started-at="2019-08-12T12:42:32Z" finished-at="2019-08-12T12:42:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunners.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
