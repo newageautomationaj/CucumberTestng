@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import pageObjects.AddCustomerPage;
 import pageObjects.LoginPage;
 import pageObjects.SearchCustomerPage;
+import utilities.PropertiesFileReader;
 
 import java.util.Properties;
 
@@ -19,6 +20,7 @@ public class BaseClass {
     public SearchCustomerPage searchCust;
     public static Logger logger;
     public Properties configProp;
+    public PropertiesFileReader propFileReader;
 
     //Created for generating random string
     public static String randomString(int stringSize){

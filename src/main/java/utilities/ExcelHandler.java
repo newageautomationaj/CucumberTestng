@@ -15,7 +15,7 @@ public class ExcelHandler {
 		
 		Map<String, String> TestDataMap = new TreeMap<String, String>();
 		String query = null;
-		query = String.format("SELECT * FROM %s WHERE Run = 'Yes' and TestCaseID = %s", sheetName,testCaseID);
+		query = String.format("SELECT * FROM %s WHERE Run = 'Yes' and TestCaseID = '%s'", sheetName,testCaseID);
 		Fillo fillo = new Fillo();
 		Connection conn = null;
 		Recordset recordset = null;

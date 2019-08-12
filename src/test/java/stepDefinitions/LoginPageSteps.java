@@ -15,6 +15,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import pageObjects.AddCustomerPage;
 import pageObjects.LoginPage;
 import pageObjects.SearchCustomerPage;
+import utilities.PropertiesFileReader;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -23,15 +24,13 @@ import java.util.Properties;
 
 public class LoginPageSteps extends BaseClass {
 
-    @Before
+   // @Before
     public void setup() throws IOException {
         logger = Logger.getLogger("nopCommerce");
         PropertyConfigurator.configure("./resources/propertiesFiles/log4j.properties");
 
-        //Reading Config Properties file
-        configProp = new Properties();
-        FileInputStream configPropFile = new FileInputStream("./resources/propertiesFiles/config.properties");
-        configProp.load(configPropFile);
+        propFileReader = new PropertiesFileReader();
+        configProp = propFileReader.getProperty();
 
         String browser = configProp.getProperty("browser");
 
