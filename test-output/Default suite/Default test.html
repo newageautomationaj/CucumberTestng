@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Aug 12 18:11:37 IST 2019</td>
+<td>Started on:</td><td>Mon Aug 12 19:45:38 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>55 seconds (55028 ms)</td>
+<tr><td>Total time:</td><td>6 seconds (6767 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,53 +75,19 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testRunners.TestRunner.feature()'><b>feature</b><br>Test class: testRunners.TestRunner<br>Parameters: "Add New Customer", "Customers"</td>
-<td><div><pre>org.junit.ComparisonFailure: expected:&lt;[Dashboard / nopCommerce administration]&gt; but was:&lt;[admin-demo.nopcommerce.com]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at stepDefinitions.LoginPageSteps.user_can_view_Dashboard(LoginPageSteps.java:107)
-	at ?.User can view Dashboard(file:featureFiles/Customers.feature:8)
-</pre></div><a href='#' onClick='toggleBox("stack-trace533415944", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace533415944'><pre>org.junit.ComparisonFailure: expected:&lt;[Dashboard / nopCommerce administration]&gt; but was:&lt;[admin-demo.nopcommerce.com]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at stepDefinitions.LoginPageSteps.user_can_view_Dashboard(LoginPageSteps.java:107)
-	at ?.User can view Dashboard(file:featureFiles/Customers.feature:8)
+<td title='testRunners.TestRunner.feature()'><b>feature</b><br>Test class: testRunners.TestRunner<br>Parameters: "Test Data Reading for the Test Cases", "Test Data Reading for the Test Cases"</td>
+<td><div><pre>java.lang.Exception: Test Data Can not find.....
+	at utilities.ExcelHandler.getTestDataInMap(ExcelHandler.java:34)
+	at stepDefinitions.TestDataReadingSteps.read_Test_Data_for_TestCase_(TestDataReadingSteps.java:12)
+	at ?.Read Test Data for TestCase_001(file:featureFiles/TestDataReading.feature:4)
+</pre></div><a href='#' onClick='toggleBox("stack-trace996533593", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace996533593'><pre>java.lang.Exception: Test Data Can not find.....
+	at utilities.ExcelHandler.getTestDataInMap(ExcelHandler.java:34)
+	at stepDefinitions.TestDataReadingSteps.read_Test_Data_for_TestCase_(TestDataReadingSteps.java:12)
+	at ?.Read Test Data for TestCase_001(file:featureFiles/TestDataReading.feature:4)
 </pre></div></td>
-<td>18</td>
-<td>testRunners.TestRunner@6e1ec318</td></tr>
-<tr>
-<td title='testRunners.TestRunner.feature()'><b>feature</b><br>Test class: testRunners.TestRunner<br>Parameters: "Search Customer by EmailID", "Customers"</td>
-<td><div><pre>org.junit.ComparisonFailure: expected:&lt;[Dashboard / nopCommerce administration]&gt; but was:&lt;[admin-demo.nopcommerce.com]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at stepDefinitions.LoginPageSteps.user_can_view_Dashboard(LoginPageSteps.java:107)
-	at ?.User can view Dashboard(file:featureFiles/Customers.feature:8)
-</pre></div><a href='#' onClick='toggleBox("stack-trace429058804", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace429058804'><pre>org.junit.ComparisonFailure: expected:&lt;[Dashboard / nopCommerce administration]&gt; but was:&lt;[admin-demo.nopcommerce.com]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at stepDefinitions.LoginPageSteps.user_can_view_Dashboard(LoginPageSteps.java:107)
-	at ?.User can view Dashboard(file:featureFiles/Customers.feature:8)
-</pre></div></td>
-<td>18</td>
-<td>testRunners.TestRunner@6e1ec318</td></tr>
-<tr>
-<td title='testRunners.TestRunner.feature()'><b>feature</b><br>Test class: testRunners.TestRunner<br>Parameters: "Search Customer by Name", "Customers"</td>
-<td><div><pre>org.junit.ComparisonFailure: expected:&lt;[Dashboard / nopCommerce administration]&gt; but was:&lt;[admin-demo.nopcommerce.com]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at stepDefinitions.LoginPageSteps.user_can_view_Dashboard(LoginPageSteps.java:107)
-	at ?.User can view Dashboard(file:featureFiles/Customers.feature:8)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1806378373", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1806378373'><pre>org.junit.ComparisonFailure: expected:&lt;[Dashboard / nopCommerce administration]&gt; but was:&lt;[admin-demo.nopcommerce.com]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at stepDefinitions.LoginPageSteps.user_can_view_Dashboard(LoginPageSteps.java:107)
-	at ?.User can view Dashboard(file:featureFiles/Customers.feature:8)
-</pre></div></td>
-<td>18</td>
-<td>testRunners.TestRunner@6e1ec318</td></tr>
+<td>6</td>
+<td>testRunners.TestRunner@617faa95</td></tr>
 </table><p>
 </body>
 </html>

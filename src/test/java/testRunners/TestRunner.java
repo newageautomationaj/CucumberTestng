@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
         dryRun = false,
         monochrome = true,
         plugin = {"pretty","html:target/site/cucumber-pretty","json:target/cucumber.json"},
-        tags = {"@UAT"}
+        tags = {"@TestDataReading"}
 )
 public class TestRunner {
 

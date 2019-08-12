@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\akjain.TEEMWURK\AppData\Local\Temp\testng-eclipse--1172448508\testng-customsuite.xml</span>
+                    <span>C:\Users\akjain.TEEMWURK\AppData\Local\Temp\testng-eclipse-1118104701\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 3 failed,   </span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,17 +102,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testRunners.TestRunner" hash-for-method="feature(&quot;Add New Customer&quot;, &quot;Customers&quot;)">feature("Add New Customer", "Customers")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testRunners.TestRunner" hash-for-method="feature(&quot;Search Customer by EmailID&quot;, &quot;Customers&quot;)">feature("Search Customer by EmailID", "Customers")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testRunners.TestRunner" hash-for-method="feature(&quot;Search Customer by Name&quot;, &quot;Customers&quot;)">feature("Search Customer by Name", "Customers")</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testRunners.TestRunner" hash-for-method="feature(&quot;Test Data Reading for the Test Cases&quot;, &quot;Test Data Reading for the Test Cases&quot;)">feature("Test Data Reading for the Test Cases", "Test Data Reading for the Test Cases")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -135,45 +125,14 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="feature(&quot;Add New Customer&quot;, &quot;Customers&quot;)">
-                  </a> <!-- feature("Add New Customer", "Customers") -->
+                  <a name="feature(&quot;Test Data Reading for the Test Cases&quot;, &quot;Test Data Reading for the Test Cases&quot;)">
+                  </a> <!-- feature("Test Data Reading for the Test Cases", "Test Data Reading for the Test Cases") -->
                   <span class="method-name">feature</span>
-                  <span class="parameters">("Add New Customer", "Customers")</span>
-                  <div class="stack-trace">org.junit.ComparisonFailure: expected:&lt;[Dashboard / nopCommerce administration]&gt; but was:&lt;[admin-demo.nopcommerce.com]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at stepDefinitions.LoginPageSteps.user_can_view_Dashboard(LoginPageSteps.java:107)
-	at ✽.User can view Dashboard(file:featureFiles/Customers.feature:8)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="feature(&quot;Search Customer by EmailID&quot;, &quot;Customers&quot;)">
-                  </a> <!-- feature("Search Customer by EmailID", "Customers") -->
-                  <span class="method-name">feature</span>
-                  <span class="parameters">("Search Customer by EmailID", "Customers")</span>
-                  <div class="stack-trace">org.junit.ComparisonFailure: expected:&lt;[Dashboard / nopCommerce administration]&gt; but was:&lt;[admin-demo.nopcommerce.com]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at stepDefinitions.LoginPageSteps.user_can_view_Dashboard(LoginPageSteps.java:107)
-	at ✽.User can view Dashboard(file:featureFiles/Customers.feature:8)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="feature(&quot;Search Customer by Name&quot;, &quot;Customers&quot;)">
-                  </a> <!-- feature("Search Customer by Name", "Customers") -->
-                  <span class="method-name">feature</span>
-                  <span class="parameters">("Search Customer by Name", "Customers")</span>
-                  <div class="stack-trace">org.junit.ComparisonFailure: expected:&lt;[Dashboard / nopCommerce administration]&gt; but was:&lt;[admin-demo.nopcommerce.com]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at stepDefinitions.LoginPageSteps.user_can_view_Dashboard(LoginPageSteps.java:107)
-	at ✽.User can view Dashboard(file:featureFiles/Customers.feature:8)
+                  <span class="parameters">("Test Data Reading for the Test Cases", "Test Data Reading for the Test Cases")</span>
+                  <div class="stack-trace">java.lang.Exception: Test Data Can not find.....
+	at utilities.ExcelHandler.getTestDataInMap(ExcelHandler.java:34)
+	at stepDefinitions.TestDataReadingSteps.read_Test_Data_for_TestCase_(TestDataReadingSteps.java:12)
+	at ✽.Read Test Data for TestCase_001(file:featureFiles/TestDataReading.feature:4)
 
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -183,7 +142,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\akjain.TEEMWURK\AppData\Local\Temp\testng-eclipse--1172448508\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\akjain.TEEMWURK\AppData\Local\Temp\testng-eclipse-1118104701\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -232,24 +191,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'feature')
 data.setCell(0, 2, 'testRunners.TestRunner')
-data.setCell(0, 3, 18512);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'feature')
-data.setCell(1, 2, 'testRunners.TestRunner')
-data.setCell(1, 3, 18148);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'feature')
-data.setCell(2, 2, 'testRunners.TestRunner')
-data.setCell(2, 3, 18043);
+data.setCell(0, 3, 6567);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 54 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -283,24 +234,12 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">feature("Add New Customer", "Customers")</span>
-                <span class="method-start">174 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">feature("Search Customer by EmailID", "Customers")</span>
-                <span class="method-start">18688 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">feature("Search Customer by Name", "Customers")</span>
-                <span class="method-start">36837 ms</span>
+                <span class="method-name">feature("Test Data Reading for the Test Cases", "Test Data Reading for the Test Cases")</span>
+                <span class="method-start">127 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">54881 ms</span>
+                <span class="method-start">6698 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
